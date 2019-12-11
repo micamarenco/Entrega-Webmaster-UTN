@@ -1,0 +1,287 @@
+/*font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;*/
+/*-------------general--------------------------------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?5rslzk');
+  src:  url('../fonts/icomoon.eot?5rslzk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5rslzk') format('truetype'),
+    url('../fonts/icomoon.woff?5rslzk') format('woff'),
+    url('../fonts/icomoon.svg?5rslzk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.contenedor{
+	width: 960px;
+	margin:0 auto;
+}
+
+/* -------- home-------------------------------------------------------------------------------------------------------------------- */
+.pagina1{
+	height: 465px;
+}
+
+.nube img{
+	height: 460px;
+	width: 100%;
+}
+
+.tamaño{
+	height: 115px;
+	text-align: center;
+	font-size: 35px;
+	font-family: "Lobster";
+	line-height: 100px;
+	color: black;
+	text-decoration: none;
+}
+.impar{
+	background-image: url(../img/marmol2.jpg);
+}
+.par{
+	background-color: #e778a3;
+}
+
+.tamaño:hover{
+	background-image: url(../img/impar.jpg);
+	color: white;
+	text-decoration: none;
+}
+.pagina1 .col-5 a{
+	text-decoration: none;
+}
+.tamaño .quienes:hover{
+	font-size: 100px;
+}
+.borde{
+	background-color:#e778a3 ;
+	width: 960px;
+	height: 5px;
+	margin-left: 0px;
+	clear: both;
+}
+
+/*--------------comentario y presupuesto-----------------------------------------------------------------------------------------------------------------------------------*/
+.pagina4{
+	height: 550px; 
+	background-image: url(../img/marmol3.jpg);
+}
+.pagina4 h2{
+	text-align: center;
+	font-family: Lobster;
+	font-size: 35px;
+	padding-top: 15px;
+}
+.formulario label{ 
+	vertical-align: top; 
+	display: block; 
+	font-family: "arial";
+	font-size: 20px;	
+	font-style: bold;
+	text-align: center
+}
+.formulario input, 
+.formulario textarea{
+	background-color: #f9ecf1;
+	border-radius: 5px;
+	border: 1px solid #ff3684;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+	width: 95%;
+}
+.formulario textarea{
+	height: 10em;
+	resize: none; 
+}
+.pedir input{
+	height: 10em;
+	text-align: center;
+	padding:0;
+}
+.formulario input[type="submit"]{
+	width: auto;
+	background-color: #ff3684;
+	color:white;
+	font-size: 1em;
+	text-align: center;
+}
+.formulario .centrado{ 
+	text-align: center;
+}
+.formulario .centrado input:hover{
+	color:#ff3684;
+	background-color: white;
+}
+
+.footer-consulta{
+	background-color: #f9ecf1;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 25px;
+	padding-left: 300px;
+	padding-top: 7px;
+	font-family: "Montserrat";
+}
+
+/*---------------pedido-------------------------------------------------------------------------------------*/
+.pagina5{
+	background-color: white;
+	width: 100%;
+}
+.contenedor-pedidos{
+	margin: 0 15px;
+	height: 500px;
+}
+.pagina5 h2{
+	text-align: center;
+	font-family: Lobster;
+	font-size: 35px;
+	padding-top: 15px;
+}
+.formulario2 label{ 
+	vertical-align: top; 
+	display: inline-block; 
+	font-family: "arial";
+	font-size: 15px;	
+	text-align: left;
+	display: inline-block;
+	width: 100px;
+}
+.formulario2 .producto{
+	text-decoration: none;
+}
+
+.horario{
+	background-color: #f9ecf1;
+	text-align: center;
+	margin-bottom: 0;
+	color: #ff3684;
+}
+
+.completar{
+	background-color: #f8cadc;
+	text-align: left;
+	margin-top:0;
+}
+
+.formulario2 input, 
+.formulario2 textarea,
+.formulario2 select{
+	background-color: #f9ecf1;
+	border-radius: 5px;
+	border: 1px solid #ff3684;
+	font-size: 0.9em;
+	padding: 0.4em 0.6em;
+	width: 250px;
+}
+.formulario2 textarea{
+	height: 7em;
+	resize: none; 
+}
+.formulario2 select option{ 
+	text-decoration: none;
+	text-align: left;
+}
+.formulario2 .aclaraciones input{
+	height: 10em;
+	padding:0;
+	text-align: center;
+}
+.formulario2 input[type="submit"]{
+	width: auto;
+	background-color: #ff3684;
+	color:white;
+	font-size: 1em;
+	text-align: right;
+}
+.formulario2 input[type="reset"]{
+	width: auto;
+	background-color: #ff3684;
+	color:white;
+	font-size: 1em;
+	text-align: right;
+}
+.formulario2 select:hover{
+	background-color: #ff3684;
+}
+.formulario2 .centrado input:hover{
+	color:#ff3684;
+	background-color: white;
+}
+/*fondos*/
+.contenedor-pedidos .col-2{
+	background-image: url(../img/palitos.jpg);
+	height: 500px;
+	width: 100%;
+	padding: 0;
+}
+.contenedor-pedidos .col-10{
+	background-color: white;
+
+
+}
+
+
+/*------------ pie de pagina-------------------------------------------------------*/
+footer{
+	background-image: url(../img/footer.jpg);
+	height: 150px;
+}
+footer .row{
+	display: flex;
+	align-content: flex-end;
+}
+.seguinos {
+	text-align: right;
+	font-size: 15px;
+	padding-left: 15px;
+	height: 150px;
+	width: 529px;
+	margin-left:15px;
+	line-height: 150px;
+}
+.seguinos p{
+	font-size: 55px;
+	color:black;
+	text-align: center;
+	font-family: "Lobster";
+
+}
+.redes{
+	padding-right: 15px;
+	height: 150px;
+	width: 431px;
+	display: inline-block;
+	align-content: space-between;
+
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92"; 
+}
+.icon-whatsapp:before {
+  content: "\ea93"; 
+}
+.icon-telegram:before {
+  content: "\ea95"; 
+}
+.icon-facebook, .icon-instagram, .icon-whatsapp, .icon-telegram{
+	color: black;
+	font-family:'icomoon';
+	font-size: 100px;
+	text-decoration: none;
+	text-align: right;
+}
+.icon-facebook:hover, .icon-instagram:hover, .icon-whatsapp:hover, .icon-telegram:hover{
+  text-decoration: none;
+  color: #ff3684;
+}
+
+

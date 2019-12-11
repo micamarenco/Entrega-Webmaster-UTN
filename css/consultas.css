@@ -1,0 +1,234 @@
+/*-------------------INICIO DE LA BASE-------------------------*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?5rslzk');
+  src:  url('../fonts/icomoon.eot?5rslzk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5rslzk') format('truetype'),
+    url('../fonts/icomoon.woff?5rslzk') format('woff'),
+    url('../fonts/icomoon.svg?5rslzk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.contenedor{
+	width: 960px;
+	margin:0 auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*-------------------- FIN DE LA BASE-------------------------*/
+/*-----------------NAV----------------------------------------*/
+.holder{
+	width: 960px;
+	height: 70px;
+	margin:0 auto;
+	background-image: url(../img/marmol2.jpg);
+	margin-bottom: 0.3em; /*para separarlo de la imagen que sigue*/
+	margin:0;
+	padding:0;
+	margin-bottom: 1em;
+}
+.holder .row{
+	margin:0;
+	padding:0;
+}
+
+.holder a{
+	color: black;
+	text-decoration: none; 
+	text-align: center;
+	padding: 0.5em 0.4em;
+	display: block;
+	font-family: "Lobster";
+	font-size: 25px;
+	height: 115px;
+	line-height: 50px;
+}
+
+.holder .col-2:hover{ 
+	background-image: url(../img/impar.jpg);
+	height: 70px;
+	
+}
+.holder .col-2:hover a{
+	color: white;
+	text-decoration: none;
+}
+
+.holder .activo{ 
+	background-image: url(../img/impar.jpg);
+	height: 70px;
+}
+.holder .activo a{
+	color: white;
+	text-decoration: none;
+}
+
+/*-----------------fin del nav ---------------------------------*/
+
+.pagina4{
+	height: 550px; 
+	background-image: url(../img/marmol3.jpg);
+	margin-bottom: 10px;
+}
+.pagina4 h2{
+	text-align: center;
+	font-family: Lobster;
+	font-size: 35px;
+	padding-top: 15px;
+}
+.formulario p{
+	text-align: center;
+}
+.formulario-consulta label{ 
+	vertical-align: top; 
+	display: block; 
+	font-family: "arial";
+	font-size: 20px;	
+	font-style: bold;
+	text-align: center;
+}
+.formulario-consulta input, 
+.formulario-consulta textarea{
+	background-color: #f9ecf1;
+	border-radius: 5px;
+	border: 1px solid #ff3684;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+	width: 70%;
+	
+}
+.formulario-consulta textarea{
+	height: 10em;
+	resize: none; 
+}
+
+.formulario-consulta input[type="submit"]{
+	width: auto;
+	background-color: #ff3684;
+	color:white;
+	font-size: 1em;
+	text-align: center;
+}
+.formulario-consulta .centrado{ 
+	margin-left: 0;
+	text-align: center;
+}
+.formulario-consulta .centrado input:hover{
+	color:#ff3684;
+	background-color: white;
+}
+
+.footer-consulta{
+	background-color: #f9ecf1;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 25px;
+	padding-left: 300px;
+	padding-top: 7px;
+	font-family: "Montserrat";
+}
+
+.mensaje{
+	background-color: #ff3684;
+	font-size: 20px;	
+	color: white;
+	font-style: bold;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------ pie de pagina-------------------------------------------------------*/
+footer{
+	background-image: url(../img/marmol2.jpg);
+	height: 80px;
+}
+footer .row{
+	display: flex;
+	align-content: flex-end;
+}
+.seguinos {
+	text-align: right;
+	font-size: 15px;
+	padding-left: 130px;
+	padding-right: 0;
+	height: 100px;
+	width: 529px;
+	line-height: 80px;
+}
+.seguinos p{
+	font-size: 55px;
+	color:black;
+	text-align: center;
+	font-family: "Lobster";
+
+}
+.redes{
+	padding-top: 5px;
+	padding-left: 15px;
+	height: 100px;
+	width: 431px;
+	display: inline-block;
+	align-content: space-between;
+
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92"; 
+}
+.icon-whatsapp:before {
+  content: "\ea93"; 
+}
+.icon-telegram:before {
+  content: "\ea95"; 
+}
+.icon-facebook, .icon-instagram, .icon-whatsapp, .icon-telegram{
+	color: black;
+	font-family:'icomoon';
+	font-size: 50px;
+	text-decoration: none;
+	text-align: right;
+}
+.icon-facebook:hover, .icon-instagram:hover, .icon-whatsapp:hover, .icon-telegram:hover{
+  text-decoration: none;
+  color: #ff3684;
+}
+

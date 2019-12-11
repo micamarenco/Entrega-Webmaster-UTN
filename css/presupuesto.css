@@ -1,0 +1,193 @@
+/*-------------------INICIO DE LA BASE-------------------------*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?5rslzk');
+  src:  url('../fonts/icomoon.eot?5rslzk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5rslzk') format('truetype'),
+    url('../fonts/icomoon.woff?5rslzk') format('woff'),
+    url('../fonts/icomoon.svg?5rslzk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.contenedor{
+	width: 960px;
+	margin:0 auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*-------------------- FIN DE LA BASE-------------------------*/
+/*-----------------NAV----------------------------------------*/
+
+.holder{
+	width: 960px;
+	height: 70px;
+	margin:0 auto;
+	background-image: url(../img/marmol2.jpg);
+	margin-bottom: 0.3em; /*para separarlo de la imagen que sigue*/
+	margin:0;
+	padding:0;
+	margin-bottom: 1em;
+}
+.holder .row{
+	margin:0;
+	padding:0;
+}
+
+.holder a{
+	color: black;
+	text-decoration: none; 
+	text-align: center;
+	padding: 0.5em 0.4em;
+	display: block;
+	font-family: "Lobster";
+	font-size: 25px;
+	height: 115px;
+	line-height: 50px;
+}
+
+.holder .col-2:hover{ 
+	background-image: url(../img/impar.jpg);
+	height: 70px;
+	
+}
+.holder .col-2:hover a{
+	color: white;
+	text-decoration: none;
+}
+
+.holder .activo{ 
+	background-image: url(../img/impar.jpg);
+	height: 70px;
+}
+.holder .activo a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*-----------------fin del nav ---------------------------------*/
+.listado{
+	margin-left: 55px;
+	margin-right: 10px;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+.col-3{
+	border: 5px solid black;
+	max-width: 22.5%;
+	margin: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+h3{
+	text-align: center;
+}
+h5.forma {
+	margin-left: 120px;
+}
+
+h5.pisos {
+	margin-left:80px;
+}
+
+.precios-poductos{
+	border-color: #fd1771;
+}
+.precios-poductos h3{
+	color:#fd1771;
+}
+.precios-rellenos{
+	border-color: #fc3683;
+}
+.precios-rellenos h3{
+	color:#fc3683;
+}
+.precios-coberturas{
+	border-color: #fc4f93;
+}
+.precios-coberturas h3{
+	color:#fc4f93;
+}
+.precios-formas{
+	border-color: #fa609c;
+}
+.precios-formas h3{
+	color:#fa609c;
+}
+
+
+
+
+
+/*------------ pie de pagina-------------------------------------------------------*/
+footer{
+	background-image: url(../img/marmol2.jpg);
+	height: 80px;
+}
+footer .row{
+	display: flex;
+	align-content: flex-end;
+}
+.seguinos {
+	text-align: right;
+	font-size: 15px;
+	padding-left: 130px;
+	padding-right: 0;
+	height: 100px;
+	width: 529px;
+	line-height: 80px;
+}
+.seguinos p{
+	font-size: 55px;
+	color:black;
+	text-align: center;
+	font-family: "Lobster";
+
+}
+.redes{
+	padding-top: 5px;
+	padding-left: 15px;
+	height: 100px;
+	width: 431px;
+	display: inline-block;
+	align-content: space-between;
+
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92"; 
+}
+.icon-whatsapp:before {
+  content: "\ea93"; 
+}
+.icon-telegram:before {
+  content: "\ea95"; 
+}
+.icon-facebook, .icon-instagram, .icon-whatsapp, .icon-telegram{
+	color: black;
+	font-family:'icomoon';
+	font-size: 50px;
+	text-decoration: none;
+	text-align: right;
+}
+.icon-facebook:hover, .icon-instagram:hover, .icon-whatsapp:hover, .icon-telegram:hover{
+  text-decoration: none;
+  color: #ff3684;
+}

@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?5rslzk');
+  src:  url('../fonts/icomoon.eot?5rslzk#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5rslzk') format('truetype'),
+    url('../fonts/icomoon.woff?5rslzk') format('woff'),
+    url('../fonts/icomoon.svg?5rslzk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.contenedor{
+	width: 960px;
+	margin:0 auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*-------------------- FIN DE LA BASE-------------------------*/
+/*-----------------NAV----------------------------------------*/
+
+.holder{
+	width: 960px;
+	margin:0 auto;
+	margin-bottom: 0.3em; /*para separarlo de la imagen que sigue*/
+	margin:0;
+	padding:0;
+	margin-bottom: 1em;
+	background-color:#fad6e2;
+	height: 100px;
+}
+.holder .row{
+	margin: 0;
+	padding:0;
+	padding-left: 50px;
+}
+
+.holder h3{
+	color: black;
+	text-decoration: none; 
+	text-align: center;
+	padding: 10px;
+	display: block;
+	font-family: "Lobster";
+	font-size: 55px;
+	height: 115px;
+	line-height: 90px;
+}
+
+
+/*-----------------------------------------------------*/
+.opciones{
+	margin-bottom: 10px;
+}
+.opciones .row{
+	margin:0;
+	padding:0;
+	background-image: url(../img/marmol3.jpg);
+	height: 500px;
+	cursor: pointer;
+}
+
+.col-6 a{
+	color: black;
+	text-decoration: none; 
+	text-align: center;
+	padding: 0.5em 0.4em;
+	display: block;
+	font-family: "Lobster";
+	font-size: 60px;
+	height: 500px;
+	line-height: 400px;
+	transition: all 0.7s ease;
+}
+.col-6:hover{
+	background-color: rgba(250, 214, 226, 0.6);
+	border-radius: 50%;
+}
+.col-6:hover a{
+	color: #ff0063 ;
+	text-decoration: none;
+}
+/*-----------------------FOOTER ----------------*/
+footer{
+	background-color:#fad6e2;
+	height: 80px;
+}
+footer .row{
+	display: flex;
+	align-content: flex-end;
+}
+.seguinos {
+	text-align: right;
+	font-size: 15px;
+	padding-left: 130px;
+	padding-right: 0;
+	height: 100px;
+	width: 529px;
+	line-height: 80px;
+}
+.seguinos p{
+	font-size: 55px;
+	color:black;
+	text-align: center;
+	font-family: "Lobster";
+
+}
+.redes{
+	padding-top: 5px;
+	padding-left: 15px;
+	height: 100px;
+	width: 431px;
+	display: inline-block;
+	align-content: space-between;
+
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92"; 
+}
+.icon-whatsapp:before {
+  content: "\ea93"; 
+}
+.icon-telegram:before {
+  content: "\ea95"; 
+}
+.icon-facebook, .icon-instagram, .icon-whatsapp, .icon-telegram{
+	color: black;
+	font-family:'icomoon';
+	font-size: 50px;
+	text-decoration: none;
+	text-align: right;
+}
+.icon-facebook:hover, .icon-instagram:hover, .icon-whatsapp:hover, .icon-telegram:hover{
+  text-decoration: none;
+  color: #ff3684;
+}
